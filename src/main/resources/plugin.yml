@@ -1,0 +1,5 @@
+name: NameTags
+version: '${project.version}'
+main: wannabenifty.nametags.NameTags
+api-version: 1.19
+authors: [ wannabeNifty ]
