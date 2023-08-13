@@ -74,6 +74,8 @@
             <groupId>com.lkeehl</groupId>
             <artifactId>tagapi</artifactId>
             <version>1.2.3</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/TagAPI.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
