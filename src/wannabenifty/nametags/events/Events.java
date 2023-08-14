@@ -14,5 +14,6 @@ public class Events implements Listener {
         event.getPlayer().setPlayerListName(ChatColor.YELLOW + "[RANK] " + ChatColor.RESET + event.getPlayer().getName());
         builder.withLine(player -> ChatColor.YELLOW + "[RANK] " + ChatColor.RESET + event.getPlayer().getName());
         builder.build();
+        System.out.println("[NameTags]: Successfully added tag to Player " + event.getPlayer().getName() + "with UUID " + event.getPlayer().getUniqueId());
     }
 }
