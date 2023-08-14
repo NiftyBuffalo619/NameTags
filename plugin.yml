@@ -1,0 +1,5 @@
+name: NameTags
+version: 1.0
+author: [wannabeNifty]
+main: wannabenifty.nametags.Main
+api-version: 1.19
